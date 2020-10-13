@@ -1,0 +1,195 @@
+/* FE4E00 */
+
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    background: black;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+.toplinks {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 2px 1px;
+    /* transition: 3.3s; */
+}
+  
+.button:hover {
+    background: linear-gradient(135deg, #d00000 60%, #ffba08);
+    color: white;
+}
+
+h1 {
+    color: #d00000;
+}
+
+
+
+@media (max-width: 767px) {
+    .toplinks { 
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        margin-right: auto;
+    }
+
+    nav {
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #about {
+        margin-top: 20px;
+        margin-bottom: 25px;      
+    }
+}
+
+.me {
+    opacity: .75;
+}
+
+img {
+    padding-top: 25px;
+}
+
+.break {
+    border-block: 5px solid #343a40;
+    margin: 5px 0px;
+}
+
+.wrapper ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.wrapper li {
+    display: inline-block;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #444c47;
+    transition: all 0.5s ease;
+}
+
+.icon .fa {
+    color: #444c47;
+    transition: all 0.5s ease;
+}
+
+.icon:hover.github {                       
+    border: 5px solid  #eb5e28;
+    box-shadow: 0 0 15px  #eb5e28;
+    transition: all 0.5s ease;
+}
+
+.icon:hover .fa-github {
+    color: #eb5e28;
+    text-shadow: 0 0 15px #eb5e28;
+    transition: all 0.5s ease;
+}
+
+.icon:hover.twitter {
+    border: 5px solid  #00aced;
+    box-shadow: 0 0 15px  #00aced;
+    transition: all 0.5s ease;
+}
+
+.icon:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.icon:hover.linkedin{
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.icon:hover .fa-linkedin{
+    color:#bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.icon:hover.envelope{
+    border: 5px solid #7bf1a8;
+    box-shadow: 0 0 15px #7bf1a8;
+    transition: all 0.5s ease;
+}
+
+.icon:hover .fa-envelope{
+    color:#7bf1a8;
+    text-shadow: 0 0 15px #7bf1a8;
+    transition: all 0.5s ease;
+}
+
+@media (min-width: 576px) {
+    .icon {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+}
+
+.connect {
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.connect {
+    background: linear-gradient(45deg, #000, #f71735, #ffd500);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    animation: connect 3s linear infinite;
+    background-clip: text;
+    color: rgba(255, 255, 255, 0);
+}
+
+@keyframes connect {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
