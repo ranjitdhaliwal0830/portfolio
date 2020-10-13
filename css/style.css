@@ -181,6 +181,8 @@ img {
     background-repeat: no-repeat;
     background-size: 75%;
     animation: connect 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     color: rgba(255, 255, 255, 0);
 }
